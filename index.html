@@ -7,6 +7,9 @@
 
 	<title>Don Dilidili - Dev Portfolio</title>
 
+	<!-- google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
 	<!-- fontawesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
@@ -31,58 +34,80 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-white">
-	  <a class="navbar-brand" href="#">DDD</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item">
-	        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#portfolio">Portfolio</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#contact">Contact</a>
-	      </li>
-	    </ul>
-	    <form class="form-inline my-2 my-lg-0">
-	      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Message Me</button>
-	    </form>
-	  </div>
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top pr-5 py-3" id="navbar">
+		<button type="button" class="btn btn-outline-dark ml-auto">Message Me</button>
 	</nav>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-1"></div>
-			<div class="col-lg-10 col-md-12 col-sm-12">
-				<div  id="home" class="jumbotron jumbotron-fluid">
-				  <div class="container">
-				    <h1 class="display-1 text-center">Don Dilidili</h1>
-				    <h1 class="display-6 text-center">Full Stack Web Developer</h1>
-				    <p class="lead text-center">Check out my 
-				    	<a href="#portfolio">
-				    		<strong>portfolio!</strong>
-				    	</a>
-				    </p>
-				  </div>
+	<div id="body" class="container col-12 mx-0 px-0">
+		<div id="header" class="row mx-0 px-0">
+			<div id="name" class="container col-lg-7 col-md-0 mx-0 px-5">
+				<h1>DON <br>DADAL <br>DILIDILI</h1>
+				<h5 class="text-dark ml-2">Full Stack Web Development  |  Logo Design  |  Branding</h5>
+				<div class="mt-4 ml-2">
+					<a href="#portfolio"><button type="button" class="btn btn-outline-danger px-4 mr-2">Portfolio</button></a>
+					<a href="#profile"><button type="button" class="btn btn-outline-danger px-4">Profile</button></a>
 				</div>
 			</div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-lg-1"></div>
-		<div class="col-lg-10">
-			<div id="portfolio" class="text-center">
-				<h1>MY PORTFOLIO</h1>
+			<div class="container name-img col-lg-5 mx-0 px-0">
+				<img id="name-img" src="assets/images/header-6.jpg">
 			</div>
 		</div>
+		<div id="portfolio" class="col-12 pl-5">
+			<h2>PORTFOLIO</h2>
+			<div id="cs" class="row mx-0 px-0">
+				<div class="container col-lg-4"><a class="mx-0 px-0" href="#"><img class="img-fluid" src="assets/images/Screenshots-01.png"></a>
+				</div>
+				<div class="container col-lg-7">
+					<h3 class="mt-4 text-left">WITCO Construction & Development Corporation</h3>
+					<h5 class="text-left mx-0">HTML | CSS | Bootstrap | Javascript</h5>
+					<p class="text text-dark">WITCO Construction & Development Corporation is a progeny of WITCO Inspection & Testing Corporation (formerly Welding Inspection & Testing Corporation, which was established in 1991).</p>
+					<a href="#"><p class="text text-primary">View Website</p></a>
+				</div>
+				<div class="container col-lg-1"></div>
+			</div>
+			<div id="cs" class="row mx-0 px-0">
+				<div class="container col-lg-4"><a class="mx-0 px-0" href="#"><img class="img-fluid" src="assets/images/Screenshots-02.png"></a>
+				</div>
+				<div class="container col-lg-7">
+					<h3 class="mt-4 text-left">Whiff of Perfume</h3>
+					<h5 class="text-left mx-0">HTML | CSS | Bootstrap | Javascript</h5>
+					<p class="text text-dark">A company that manufactures bottled fragrances crafted with passion from Grasse, France. Customized for every discerning individual, each scent comes from precise raw materials collectively telling us a story.</p>
+					<a href="#"><p class="text text-primary">View Website</p></a>
+				</div>
+				<div class="container col-lg-1"></div>
+			</div>
+			<div id="cs" class="row mx-0 px-0">
+				<div class="container col-lg-4"><a class="mx-0 px-0" href="#"><img class="img-fluid" src="assets/images/Screenshots-03.png"></a>
+				</div>
+				<div class="container col-lg-7">
+					<h3 class="mt-4 text-left">WITCO Construction & Development Corporation</h3>
+					<h5 class="text-left mx-0">HTML | CSS | Bootstrap | Javascript</h5>
+					<p class="text text-dark">WITCO Construction & Development Corporation is a progeny of WITCO Inspection & Testing Corporation (formerly Welding Inspection & Testing Corporation, which was established in 1991).</p>
+					<a href="#"><p class="text text-primary">View Website</p></a>
+				</div>
+				<div class="container col-lg-1"></div>
+			</div>			
+		</div>
+		<div class="container col-12 mx-0 px-0">
+			<div id="profile" class="pl-5">
+				<h2>PROFILE</h2>
+			</div>
+		</div>
+		<div class="container col-12 mx-0 px-0">
+			<div id="other" class="pl-5">
+				<h2>OTHER WORKS</h2>
+			</div>
+		</div>
+		<div class="footer col-12 text-center pt-5">
+			<small>Copyright &copy; 2018 Tuitt Bootcamp - Don Dilidili</small>
+		</div>
 	</div>
 
+	<script type="text/javascript">
+		$('.carousel').carousel({
+			interval: 2000
+		})
+	</script>
 
 </body>
 </html>

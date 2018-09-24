@@ -1,20 +1,127 @@
-.jumbotron {
-	border: 5px solid gray;
-	background: rgba(128,128,128,0.25);
-	margin-top: 50px;
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#navbar {
+	z-index: 9999;
+	background-color: white;
 }
 
 
-#portfolio {
+#logo {
+	color: #FF4D3E;	
+}
+
+#header {
 	height: 100vh;
 }
 
-/*TABLET*/
-@media only screen and (min-width: 401px;) and (max-width: 960px;) {
+#name {
+	background-color: rgba(255,255,255,1.0);
+	height: 100%;
+	width: 66%;
+	color: #173890;
+	z-index: 100;
+	padding-top: 35vh;
+}
 
+h1 {
+	/*padding-top: 150px;*/
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 110px;
+}
+
+h2 {
+	padding-top: 70px;
+	font-size: 60px;
+	font-weight: 700;
+	color: #173890;
+	border-bottom: 1px solid grey;
+}
+
+h3 {
+	text-align: right;
+	padding-top: 30px;
+}
+
+h4 {
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+h5 {
+	font-size: 0.95em;
+}
+
+p {
+	font-size: 0.8em;
+	margin-top: 28px;
+}
+
+#body {
+	overflow: hidden;
+}
+
+#header .btn {
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.name-img {
+	width: 34%;  
+    overflow: hidden;
+}
+
+#name-img {
+    height: 100vh;
+    position: relative;
+    object-fit: cover;
+    float: right;
+    z-index: -100;
+}
+
+#portfolio {
+	min-height: 100%;
+	background-color: white;
+	box-sizing: content-box;
+}
+
+#profile {
+	height: 100vh;
+	background-color: white;
+}
+
+#other {
+	height: 90vh;
+	background-color: white;
+}
+
+.footer {
+	height: 10vh;
+	background-color: lightgrey;
+}
+
+small {
+	color: white;
 }
 
 /*MOBILE*/
 @media only screen and (max-width: 400px;) {
+
+}
+/*TABLET*/
+@media only screen and (min-width: 401px;) and (max-width: 960px;) {
+	#header-img {
+		height: 50vh;
+	}
+	#name-img {
+		z-index: 0;
+	}
+}
+/*DESKTOP*/
+@media only screen and (min-width: 961px;) {
 
 }
