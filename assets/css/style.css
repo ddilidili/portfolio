@@ -6,7 +6,7 @@
 
 #navbar {
 	z-index: 9999;
-	background-color: white;
+	background-color: #F8F8FF;
 }
 
 
@@ -19,24 +19,22 @@
 }
 
 #name {
-	background-color: rgba(255,255,255,1.0);
+	background-color: #F8F8FF;
 	height: 100%;
-	width: 66%;
 	color: #173890;
 	z-index: 100;
-	padding-top: 35vh;
+	padding-top: 25vh;
 }
 
 h1 {
-	/*padding-top: 150px;*/
-	font-size: 100px;
+	font-size: 10vw;
 	font-weight: 700;
-	line-height: 110px;
+	line-height: 10vw;
 }
 
 h2 {
 	padding-top: 70px;
-	font-size: 60px;
+	font-size: 4vw;
 	font-weight: 700;
 	color: #173890;
 	border-bottom: 1px solid grey;
@@ -44,16 +42,14 @@ h2 {
 
 h3 {
 	text-align: right;
-	padding-top: 30px;
+	padding-top: 40px;
+	font-size: 2vw;
+	/*margin-top: 10px;*/
 }
 
 h4 {
 	margin-top: 40px;
-	margin-left: 20px;
-}
-
-h5 {
-	font-size: 0.95em;
+	/*margin-left: 20px;*/
 }
 
 p {
@@ -61,8 +57,16 @@ p {
 	margin-top: 28px;
 }
 
+#star {
+	color: #173890;
+}
+
+#none {
+	color: darkgray;
+}
+
 #body {
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 #header .btn {
@@ -70,6 +74,10 @@ p {
 	text-decoration: none;
 }
 
+#exp {
+	/*margin-top: 40;*/
+	padding: 0;
+}
 .name-img {
 	width: 34%;  
     overflow: hidden;
@@ -85,43 +93,67 @@ p {
 
 #portfolio {
 	min-height: 100%;
-	background-color: white;
+	background-color: #F8F8FF;
 	box-sizing: content-box;
 }
 
 #profile {
-	height: 100vh;
-	background-color: white;
-}
-
-#other {
-	height: 90vh;
-	background-color: white;
+	min-height: 100%;
+	background-color: #F8F8FF;
 }
 
 .footer {
-	height: 10vh;
+	height: 12vh;
 	background-color: lightgrey;
 }
 
 small {
-	color: white;
+	color: #F8F8FF;
+}
+
+.fab {
+	/*color:*/
+	font-size: 30px;
 }
 
 /*MOBILE*/
-@media only screen and (max-width: 400px;) {
-
+@media only screen and (max-width: 420px){
+	h1 {
+		font-size: 16vw;
+		line-height: 15vw;
+	}
+	h5 {
+		font-size: 4vw;
+		margin-right: 0;
+	}
+	h2 {
+		font-size: 10vw;
+	}
+	h3 {
+		font-size: 7vw;
+	}
 }
 /*TABLET*/
-@media only screen and (min-width: 401px;) and (max-width: 960px;) {
-	#header-img {
-		height: 50vh;
+@media only screen and (min-width: 421px) and (max-width: 1023px) {
+	h1 {
+		font-size: 14vw;
+		line-height: 13vw;
 	}
-	#name-img {
-		z-index: 0;
+	h2 {
+		font-size: 6.5vw;
+	}
+	h3 {
+		font-size: 4vw;
 	}
 }
 /*DESKTOP*/
-@media only screen and (min-width: 961px;) {
+@media only screen and (min-width: 1024px) {
+	h1 {
+		font-size: 9vw;
+		line-height: 8vw;
+	}
+	h5 {
+		/*margin-left: 5px;*/
+	}
 
 }
